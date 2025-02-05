@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ed9f10a-d316-4ee3-9c30-2e0a495e51a8" name="Changes" comment="Crud of book">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emprunt-service/src/main/java/ma/library/empruntservice/EmpruntServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emprunt-service/src/main/java/ma/library/empruntservice/EmpruntServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emprunt-service/src/main/java/ma/library/empruntservice/web/EmpruntController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emprunt-service/src/main/java/ma/library/empruntservice/web/EmpruntController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/livre-service/src/main/java/ma/library/livreservice/web/LivreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/livre-service/src/main/java/ma/library/livreservice/web/LivreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo-config/livre-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/repo-config/livre-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilisateur-service/src/main/java/ma/library/utilisateurservice/UtilisateurServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilisateur-service/src/main/java/ma/library/utilisateurservice/UtilisateurServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilisateur-service/src/main/java/ma/library/utilisateurservice/web/UtilisateurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilisateur-service/src/main/java/ma/library/utilisateurservice/web/UtilisateurController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maryem-etokalneb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maryem-etokalneb/biblio-micro.git&quot;,
+    &quot;accountId&quot;: &quot;95cfb63c-e802-4d53-b98a-d61d62693495&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2r1ljjYR9jWGmCzklMoUb0easW1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Docker-compose.yml.livre-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-service [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.discovery-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.discovery-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.discovery-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.emprunt-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.emprunt-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.emprunt-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.emprunt-service [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.emprunt-service [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.livre-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.livre-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.notification-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.notification-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.utilisateur-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.utilisateur-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.utilisateur-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.utilisateur-service [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.utilisateur-service [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConfigServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DiscoveryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EmpruntServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LivreServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UtilisateurServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-23&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/master/microservices/tst/n/conf/biblio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\master\microservices\tst\biblio\config-service" />
+      <recent name="C:\Users\hp\Desktop\master\microservices\tst\biblio\discovery-service" />
+      <recent name="C:\Users\hp\Desktop\master\microservices\tst\biblio\emprunt-service" />
+      <recent name="C:\Users\hp\Desktop\master\microservices\tst\biblio\gateway-service" />
+      <recent name="C:\Users\hp\Desktop\master\microservices\biblio\utilisateur-service\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\master\microservices\tst\biblio\repo-config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.library.notificationservice.web" />
+      <recent name="ma.library.notificationservice.module" />
+      <recent name="module" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UtilisateurServiceApplication">
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.library.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.library.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpruntServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="emprunt-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.library.empruntservice.EmpruntServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.library.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LivreServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="livre-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.library.livreservice.LivreServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilisateurServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="utilisateur-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.library.utilisateurservice.UtilisateurServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker-compose.yml.livre-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="livre-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="config-service/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="config-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker-compose.yml.livre-service: Compose Deployment" />
+      <item itemvalue="Docker.config-service/Dockerfile" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
+      <item itemvalue="Spring Boot.EmpruntServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.LivreServiceApplication" />
+      <item itemvalue="Spring Boot.UtilisateurServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.config-service/Dockerfile" />
+        <item itemvalue="Docker.Docker-compose.yml.livre-service: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed9f10a-d316-4ee3-9c30-2e0a495e51a8" name="Changes" comment="" />
+      <created>1735734602529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735734602529</updated>
+      <workItem from="1735734603479" duration="13939000" />
+      <workItem from="1736075035354" duration="10499000" />
+      <workItem from="1736154230280" duration="16242000" />
+      <workItem from="1736366829510" duration="2023000" />
+      <workItem from="1736414082141" duration="1179000" />
+      <workItem from="1736440233102" duration="24975000" />
+      <workItem from="1737150013341" duration="630000" />
+      <workItem from="1737234907707" duration="18733000" />
+      <workItem from="1737316105927" duration="4349000" />
+      <workItem from="1737320780942" duration="3313000" />
+      <workItem from="1737380209467" duration="366000" />
+      <workItem from="1737381089346" duration="14045000" />
+      <workItem from="1737451837331" duration="4268000" />
+      <workItem from="1737462576283" duration="2124000" />
+      <workItem from="1737465210756" duration="4222000" />
+      <workItem from="1737470029330" duration="6112000" />
+      <workItem from="1737476934031" duration="965000" />
+      <workItem from="1737483994030" duration="995000" />
+      <workItem from="1737489840687" duration="737000" />
+      <workItem from="1737492138967" duration="35000" />
+      <workItem from="1737497427370" duration="756000" />
+      <workItem from="1737531202433" duration="290000" />
+      <workItem from="1737531782945" duration="769000" />
+      <workItem from="1737534064859" duration="323000" />
+      <workItem from="1737539803526" duration="652000" />
+      <workItem from="1737541712837" duration="1635000" />
+      <workItem from="1737549341546" duration="10989000" />
+      <workItem from="1737565480403" duration="1016000" />
+      <workItem from="1737568470226" duration="812000" />
+      <workItem from="1737572328989" duration="2232000" />
+      <workItem from="1737575741986" duration="2752000" />
+      <workItem from="1737578765585" duration="374000" />
+      <workItem from="1737579508481" duration="2567000" />
+      <workItem from="1737617913162" duration="2546000" />
+      <workItem from="1737806041647" duration="929000" />
+      <workItem from="1737827120094" duration="6197000" />
+      <workItem from="1737969971954" duration="731000" />
+      <workItem from="1737978807203" duration="483000" />
+      <workItem from="1737979554795" duration="291000" />
+      <workItem from="1737979866054" duration="13938000" />
+      <workItem from="1738076983337" duration="17339000" />
+      <workItem from="1738096876285" duration="6542000" />
+      <workItem from="1738161550876" duration="1128000" />
+      <workItem from="1738166872802" duration="299000" />
+      <workItem from="1738171654500" duration="640000" />
+      <workItem from="1738667016501" duration="11493000" />
+      <workItem from="1738682046065" duration="3890000" />
+      <workItem from="1738700258911" duration="6998000" />
+      <workItem from="1738711264356" duration="119000" />
+    </task>
+    <task id="LOCAL-00001" summary="Crud of book">
+      <option name="closed" value="true" />
+      <created>1735747405851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735747405852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Crud of book" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crud of book" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

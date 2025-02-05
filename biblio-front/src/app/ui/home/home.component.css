@@ -1,0 +1,174 @@
+:root {  
+	--body-font: Work Sans, sans-serif;
+	--body-color: #252525;
+	--body-background: #ffffff;   
+	--body-font-size: 16px;   
+	--body-line-height: 1.5;
+	--headings-font: Lora, serif;
+	--headings-color: #252525; 
+	--primary-color: #9fcea0;
+	--extra-color1: #E1EDF0;
+	--extra-color2: #19303E;
+	--menu-normal-color: #ffffff;
+	--menu-hover-color: #9fcea0;
+	--submenu-background-color: #9fcea0;
+	--submenu-normal-color: #252525;	
+	--submenu-hover-color: #ffffff;
+	--footer-background-color: #000000;
+	--footer-color: #999999;
+	--footer-title-color: #ffffff;
+	--headings-h1-size: 54px;
+	--headings-h2-size: 48px;
+	--headings-h3-size: 36px;
+	--headings-h4-size: 32px;
+	--headings-h5-size: 24px;
+	--headings-h6-size: 16px;
+}
+.widgettitle, #respond h3 { font-family:var(--body-font); }
+h1, h2, h3, h4, h5, h6, blockquote, .logo-txt{ font-family:var(--headings-font); }
+h1, h2, h3, h4, h5, h6 {
+	color: var(--headings-color);
+	font-weight: 400;
+	line-height:1.5em;
+}
+h1{
+	font-size: var(--headings-h1-size);
+}
+
+h2{
+	font-size:var(--headings-h2-size);
+}
+
+h3{
+	font-size:var(--headings-h3-size);
+	}
+h4{
+	font-size:var(--headings-h4-size);
+}
+h5{
+	font-size:var(--headings-h5-size);
+	}
+h6{
+	font-size:var(--headings-h6-size);
+	}
+
+a{color:var(--headings-color);}
+
+p a{color:var(--primary-color);
+	border-bottom: 1px solid var(--primary-color);
+	}
+a:hover, p a:hover{color:var(--primary-color);text-decoration:none;
+border:none;}
+a:active,a:focus{outline: none;
+text-decoration:none;}	 
+.alignc{text-align:center;}
+.alignr{text-align:right;}
+.none{display:none;}
+
+
+
+
+
+.banner-image {
+    background-image: url('/assets-home/img/bac3.jpg');;
+    background-size: cover;
+}
+.title{
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 5vw;
+    font-weight: 400;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+@media (max-width: 992px ){
+    .search-sec{
+        position: relative;
+        top: 21px;
+    }
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .filter-group {
+        margin-bottom: 10px; /* Add some spacing between filter groups */
+    }
+    .filter2-group {
+        flex-basis: 50%; /* Set each filter group to take 50% of the container width */
+    }
+}
+
+
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+.filter-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-group select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #e7ffd49e;
+}
+
+
+
+.filter-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #1b3f04;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+/* details restaurant  */
+.me-2 {
+margin-right: 0.5rem !important;
+}
+
+.list-group-borderless .list-group-item {
+border: none !important;
+padding: 0.425rem 0;
+}
+.list-group-item:first-child {
+border-top-left-radius: inherit;
+border-top-right-radius: inherit;
+}
+:host, :root {
+--fa-style-family-classic: "Font Awesome 6 Free";
+--fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+--fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+--fa-style-family-brands: "Font Awesome 6 Brands";
+--fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+.textLeft {
+text-align: left !important; /* Align text to the left */
+}

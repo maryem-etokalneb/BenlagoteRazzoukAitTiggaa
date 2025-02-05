@@ -1,0 +1,31 @@
+<div class="p-5 mt-5">
+    <div class="card">
+      <div class="card-header">Mes Emprunts</div>
+      <div *ngIf="errorMessage" class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+      <div class="card-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Titre</th>
+              <th>Date d'Emprunt</th>
+              <th>Date de Retour</th>
+              <th>Rendu</th>
+              <th>Pénalité</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let emprunt of emprunts">
+              <td>{{ emprunt.livre.title }}</td>
+              <td>{{ emprunt.dateEmprunt }}</td>
+              <td>{{ emprunt.dateRetourPrevue || 'Non retourné' }}</td>
+              <td>{{ emprunt.returned ? 'Oui' : 'Non' }}</td>
+              <td>{{ emprunt.penalite > 0 ? emprunt.penalite + ' DH' : 'Aucune' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,48 @@
+
+
+<form (ngSubmit)="onSearch()" novalidate>
+  <div  class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"    >
+    <div class="content text-center">
+      <h1 class="text-white title">Découvrez une expérience culinaire exceptionnelle</h1>
+       <!-- Banner Image  -->
+      
+      <div class="filter-container container mt-5">
+          <div class="filter-group">
+              <select id="exampleFormControlSelect1" name="city" [(ngModel)]="searchParams.title">
+                  <option value=""  disabled selected>Sélectionner une titre</option>
+                  <option *ngFor="let title of titles" [value]="title">{{ title }}</option>
+                  
+              </select>
+          </div>
+          <div class="filter-group">
+              <select id="specialite" name="specialty" [(ngModel)]="searchParams.author">
+                  <option  value=""  disabled selected>Sélectionner autheur</option>
+                  <option *ngFor="let author of authors" [value]="author">{{ author }}</option>
+                  
+              </select>
+          </div>  
+          <div class="filter-group">
+            <select id="specialite" name="specialty" [(ngModel)]="searchParams.genre">
+                <option value=""  disabled selected>Sélectionner genre</option>
+                <option *ngFor="let genre of genres" [value]="genre">{{ genre }}</option>
+                
+            </select>
+          </div>  
+          <button type="submit" class="submit-button">Rechercher</button>
+      </div>
+      
+    </div>    
+  </div>
+</form>
+
+
+     
+      <script>
+          
+          document.getElementById('livraisonCheckbox').addEventListener('change', function() {
+              document.getElementById('livraison').value = this.checked ? '1' : '';
+          });
+          document.getElementById('reservationCheckbox').addEventListener('change', function() {
+              document.getElementById('reservation').value = this.checked ? '1' : '';
+          });
+      </script>
